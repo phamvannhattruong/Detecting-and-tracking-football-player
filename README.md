@@ -36,28 +36,26 @@ Based on the current project organization:
 
 ## 🛠 Installation & Setup
 
-Clone the Repository:
+- Clone the Repository:
 
-git clone https://github.com/phamvannhattruong/Detecting-and-tracking-football-player.git
+    - git clone https://github.com/phamvannhattruong/Detecting-and-tracking-football-player.git
 
-Install Dependencies:
+- Install Dependencies:
 
-pip install ultralytics supervision opencv-python numpy pandas
+    - pip install ultralytics supervision opencv-python numpy pandas
 
-Prepare the Model: Place your YOLO weights (e.g., yolov8x.pt) in the root directory or a models/ folder.
+- Prepare the Model: Place your YOLO weights (e.g., yolov8x.pt) in the root directory or a models/ folder.
 
 
 ## 💻 Usage
 
-To run the detection and tracking on a video:
-
-python main.py
+- To run the detection and tracking on a video: python main.py
 
 
 ## 📊 Expected Results
 
-The system generates an output video with:
+- The system generates an output video with:
 
-Bounding boxes and unique IDs for every person on the pitch.
+- Bounding boxes and unique IDs for every person on the pitch.
 
-Movement trajectories for both the players and the ball.
+- Movement trajectories for both the players and the ball.
